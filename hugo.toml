@@ -1,0 +1,4 @@
+baseURL = "https://jonahalexsmith.com/"
+languageCode = "en-au"
+title = "jonahalexsmith.com"
+theme = "hugo-theme-console"

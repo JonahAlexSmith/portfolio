@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div style="display: flex; justify-content: center; align-items: center; padding: 20px; margin-top: 15%;">
+    <div style="width: 20%; text-align: justify; line-height: 1.6;">
+        <p>Jonah Alex Smith</p>
+        <p>
+            <b>Bio:</b><br>
+            LinkedIn<br/>
+            <a href="https://github.com/JonahAlexSmith" title="{{ .Title }}">GitHub</a><br/>
+        </p>
+        <p>
+            <b>Projects:</b><br>
+            <a href="https://jonahalexsmith.github.io/classicle/#!/classicle" title="{{ .Title }}">Classicle</a>
+        </p>
+        <p>
+            <b>Work:</b><br>
+            Decidr
+            Strong Compute
+        </p>
+        {{ partial "twitter_cards.html"}}
+    </div>
+</div>
+{{ end }}
